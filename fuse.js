@@ -13,5 +13,5 @@ const fuse = FuseBox.init({
 });
 
 fuse.dev();
-fuse.bundle('app').watch().instructions('> index.jsx');
+fuse.bundle('app').watch().instructions('> index.tsx');
 fuse.run();
